@@ -1,0 +1,72 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #e9ebee;
+  background-color: #292b2c;
+  overflow: scroll;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 1em 0 0 0;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #3174af;
+}
+
+a:hover {
+  color: #56c035;
+}
+
+/* Text */
+.text-minor {
+  color: #666;
+}
+
+.text-lead {
+  color: #444;
+}
+
+/* Lists */
+.reset-list {
+  margin: 0;
+  padding: 0;
+}
+
+.reset-list > * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Layouts */
+.root {
+  margin: 0 auto;
+  padding: 0;
+  width: 96%;
+}
+
+@media (min-width: 756px) {
+  .root {
+    width: 98%;
+  }
+}
