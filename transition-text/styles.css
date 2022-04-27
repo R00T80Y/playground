@@ -1,0 +1,31 @@
+h1 {
+  color: #ddd;
+}
+
+p {
+  color: #ccc;
+}
+
+.animation .animate-header {
+  opacity: 0;
+  transform: translate3d(0, -12px, 0);
+  transition-property: opacity, transform;
+  transition-duration: 800ms, 600ms;
+}
+
+.animation-start .animate-header {
+  opacity: 1;
+  transform: translate3d(0, 0px, 0);
+}
+
+.animation .animate-text {
+  opacity: 0;
+  transform: translate3d(0, 6px, 0);
+  transition-property: opacity, transform;
+  transition-duration: 600ms, 300ms;
+}
+
+.animation-start .animate-text {
+  opacity: 1;
+  transform: translate3d(0, 0px, 0);
+}
