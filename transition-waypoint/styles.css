@@ -1,0 +1,39 @@
+h1 {
+  color: #ddd;
+}
+
+p {
+  color: #ccc;
+}
+
+/* Waypoint */
+#waypoint-step-1 {
+  width: 100%;
+  height: 1px;
+  outline-offset: -1px;
+  outline: 1px solid #228228;
+}
+
+.animation .side-left {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition-property: opacity, transform;
+  transition-duration: 800ms, 500ms;
+}
+
+.animation-step-1 .side-left {
+  opacity: 1;
+  transform: translate3d(0px, 0, 0);
+}
+
+.animation .side-right {
+  opacity: 0;
+  transform: translate3d(100px, 0, 0);
+  transition-property: opacity, transform;
+  transition-duration: 800ms, 500ms;
+}
+
+.animation-step-1 .side-right {
+  opacity: 1;
+  transform: translate3d(0px, 0, 0);
+}
